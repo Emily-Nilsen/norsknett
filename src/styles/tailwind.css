@@ -1,0 +1,12 @@
+html,
+body {
+  font-family: futura-pt, sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#__next {
+  min-height: 100%;
+}
