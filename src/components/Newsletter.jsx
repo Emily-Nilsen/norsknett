@@ -13,7 +13,24 @@ export function Newsletter() {
             in the world’s best beans!
           </p>
         </div>
-        <form className="mt-10 max-w-md">
+        <form
+          action="#"
+          subject="Subscribe to My Next Coffee"
+          name="My Next Coffee - Newsletter"
+          data-netlify="true"
+          method="POST"
+          className="mt-10 max-w-md"
+        >
+          <input
+            type="hidden"
+            name="subject"
+            value="Subscribe to My Next Coffee"
+          />
+          <input
+            type="hidden"
+            name="form-name"
+            value="My Next Coffee - Newsletter"
+          />
           <div className="flex gap-x-4">
             <label htmlFor="email-address" className="sr-only">
               Email address
