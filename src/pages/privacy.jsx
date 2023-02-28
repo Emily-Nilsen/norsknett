@@ -37,7 +37,7 @@ export default function Privacy() {
 
           <p className="mt-8">
             You can unsubscribe from our newsletter at any time by clicking the
-            "Unsubscribe" link located at the bottom of our emails. If you have
+            “Unsubscribe” link located at the bottom of our emails. If you have
             any questions or concerns regarding our privacy policy or how we
             handle your personal information, please contact us at{' '}
             <span className="font-semibold text-yellow-800">
