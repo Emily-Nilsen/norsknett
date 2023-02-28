@@ -42,8 +42,8 @@ export function ComingSoon() {
                   height={110}
                 />
               </div>
-              <div className="prose my-12 mb-0 max-w-lg lg:prose-xl sm:my-24 md:my-32">
-                <p className="mt-3 text-left text-2xl text-white sm:text-3xl ">
+              <div className="prose mx-auto my-12 mb-0 max-w-lg lg:prose-xl sm:my-24 md:my-32 ">
+                <p className="mt-3 text-center text-2xl text-white sm:text-3xl">
                   Snart lanserer vi profesjonelle nettside- og grafisk
                   design-tjenester for små norske bedrifter og entreprenører.
                 </p>
