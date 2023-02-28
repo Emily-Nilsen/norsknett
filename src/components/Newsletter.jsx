@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export function Newsletter() {
   return (
-    <div className="pb-16 pt-60 sm:py-24 lg:py-32">
+    <div className="pb-16 pt-60 sm:py-24">
       <div className="max-w-lg">
         <div className="text-3xl tracking-tight text-white sm:text-4xl">
           <h2 className="max-w-lg text-2xl font-bold tracking-tight text-white sm:text-4xl">

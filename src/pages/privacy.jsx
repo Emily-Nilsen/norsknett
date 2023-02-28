@@ -4,7 +4,7 @@ import { Container } from '@/components/Container'
 
 export default function Privacy() {
   return (
-    <div className="relative h-full w-full bg-yellow-800/10 px-6 py-32 lg:px-8">
+    <div className="relative h-full w-full px-6 py-32 lg:px-8">
       <div className="-mt-20 flex w-full justify-center pt-10 pb-20">
         <Image
           src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1677586250/My%20Next%20Coffee/my_next_coffee_dark_bg_wwg8nt.svg"
