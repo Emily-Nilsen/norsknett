@@ -15,12 +15,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>
-          My Next Coffee - Discover unique coffee beans from around the world
-        </title>
+        <title>Norsk Nett - Profesjonelle nettside- og grafisk design</title>
         <meta
           name="description"
-          content="Discover unique coffee beans worldwide. My Next Coffee supports fair wages and sustainable production. Coming soon!"
+          content="Profesjonelle nettside- og grafisk design-tjenester for små norske bedrifter og entreprenører"
         />
       </Head>
       {/* <Header /> */}

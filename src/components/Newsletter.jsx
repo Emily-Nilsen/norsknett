@@ -6,17 +6,16 @@ export function Newsletter() {
       <div className="max-w-lg">
         <div className="text-3xl tracking-tight text-white sm:text-4xl">
           <h2 className="max-w-lg text-2xl font-bold tracking-tight text-white sm:text-4xl">
-            Get notified for the launch of My Next Coffee.
+            Varsle meg om lanseringen av Norsk Nett.
           </h2>{' '}
           <p className="mt-2 max-w-md text-lg leading-8 tracking-normal text-stone-300">
-            Join us in supporting sustainable coffee production while indulging
-            in the world’s best beans!
+            Kontakt oss for å lære mer!
           </p>
         </div>
         <form
           action="#"
-          subject="Subscribe to My Next Coffee"
-          name="My Next Coffee - Newsletter"
+          subject="Abonner på Norsk Nett-nyhetsbrevet"
+          name="Norsk Nett - Nyhetsbrevet"
           data-netlify="true"
           method="POST"
           className="mt-10 max-w-md"
@@ -24,16 +23,16 @@ export function Newsletter() {
           <input
             type="hidden"
             name="subject"
-            value="Subscribe to My Next Coffee"
+            value="Abonner på Norsk Nett-nyhetsbrevet"
           />
           <input
             type="hidden"
             name="form-name"
-            value="My Next Coffee - Newsletter"
+            value="Norsk Nett - Nyhetsbrevet"
           />
           <div className="flex gap-x-4">
             <label htmlFor="email-address" className="sr-only">
-              Email address
+              E-post
             </label>
             <input
               id="email-address"
@@ -41,25 +40,25 @@ export function Newsletter() {
               type="email"
               autoComplete="email"
               required
-              className="min-w-0 flex-auto rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-yellow-800 sm:text-sm sm:leading-6"
-              placeholder="Enter your email"
+              className="min-w-0 flex-auto rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-lime-600 sm:text-sm sm:leading-6"
+              placeholder="Skriv inn din e-postadresse"
             />
             <button
               type="submit"
-              className="flex-none rounded-md bg-yellow-800 py-2.5 px-3.5 text-sm font-semibold text-white shadow-sm transition duration-300 ease-in-out hover:bg-yellow-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-800"
+              className="flex-none rounded-md bg-lime-900 py-2.5 px-3.5 text-sm font-semibold text-white shadow-sm transition duration-300 ease-in-out hover:bg-lime-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-600"
             >
-              Notify me
+              Varsle meg
             </button>
           </div>
           <p className="mt-4 text-sm leading-6 text-stone-200">
-            We care about your data. Read our{' '}
+            Vi bryr oss om dine data. Les{' '}
             <Link
               href="/privacy"
-              className="font-semibold text-yellow-700 transition duration-300 ease-in-out hover:text-yellow-800"
+              className="font-semibold text-lime-700 transition duration-300 ease-in-out hover:text-lime-900"
             >
-              privacy&nbsp;policy
-            </Link>
-            .
+              personvernserklæringen
+            </Link>{' '}
+            vår.
           </p>
         </form>
       </div>
