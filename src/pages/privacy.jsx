@@ -13,7 +13,7 @@ export default function Privacy() {
             width={100}
             height={159}
           />
-          <p className="flex items-center bg-gradient-to-b from-[#7fc898] to-cyan-600 bg-clip-text text-center font-display text-2xl text-transparent">
+          <p className="mt-1 flex items-center text-center font-display text-xl text-gray-800">
             norsk nett
           </p>
         </div>
