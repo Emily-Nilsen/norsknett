@@ -1,6 +1,6 @@
 html,
 body {
-  font-family: futura-pt, sans-serif;
+  height: 100%;
 }
 
 @tailwind base;

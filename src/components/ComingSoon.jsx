@@ -1,15 +1,15 @@
 import Image from 'next/image'
 
 import { Container } from '@/components/Container'
-import { Newsletter } from './Newsletter'
+import { Lanseringen } from './Lanseringen'
 
 export function ComingSoon() {
   return (
-    <div className="relative flex min-h-screen">
+    <div className="relative -mb-72 flex min-h-screen sm:-mb-60">
       <div className="absolute inset-0">
         <Image
-          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Norsk%20Nett/tomas-robertson-wu_a2B7QGbQ-unsplash_apr6ne.jpg"
-          alt="Indulge in the rich and diverse flavours of coffee beans from My Next Coffee"
+          src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1677830073/Norsk%20Nett/high-tech_mountain_2_zfu4tw.png"
+          alt="Abstrakt bilde av en tåkete furuskog foran et høyt, mørkt fjell med en futuristisk, cyanblå og grønn wireframe-teknologibakgrunn som viser en 3D-rutenett-cyber-teknologi AI-tech-wire-nettverk."
           fill
           className="h-full w-full object-cover"
           unoptimized
@@ -23,14 +23,20 @@ export function ComingSoon() {
         <Container className="w-full">
           <div className="flex flex-col justify-between ">
             <div className="">
-              <div className="flex w-full justify-center">
-                <Image
-                  src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Norsk%20Nett/norsk_nett_white_bg_ybtx3m.svg"
-                  alt="My Next Coffee logo - supporting fair wages and sustainable production of coffee beans"
-                  width={110}
-                  height={110}
-                />
+              <div className="flex w-full justify-center sm:justify-start">
+                <div className="flex">
+                  <Image
+                    src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1677831468/Norsk%20Nett/norsk_nett_white_triangle_ccglnv.svg"
+                    alt="Logo for Norsk Nett, et selskap som tilbyr webutvikling og grafisk design"
+                    width={100}
+                    height={159}
+                  />
+                  <p className="flex items-center bg-gradient-to-b from-[#7fc898] to-[#2299d5] bg-clip-text font-display text-2xl text-transparent ">
+                    norsk <br /> nett
+                  </p>
+                </div>
               </div>
+
               <div className="prose mx-auto mt-24 mb-0 max-w-lg lg:prose-xl sm:my-24 md:my-32 ">
                 <p className="mt-3 text-center text-2xl text-white sm:text-3xl">
                   Snart lanserer vi profesjonelle nettside- og grafisk
@@ -39,13 +45,13 @@ export function ComingSoon() {
               </div>
             </div>
             <div className="">
-              <Newsletter />
-              <footer className="sm:my-4">
+              <Lanseringen />
+              {/* <footer className="sm:my-4">
                 <p className="my-3 text-stone-200 sm:my-6">info@norsknett.no</p>
                 <p className="text-sm text-stone-400">
                   &copy; Norsk Nett, {new Date().getFullYear()}. Copyright.
                 </p>
-              </footer>
+              </footer> */}
             </div>
           </div>
         </Container>

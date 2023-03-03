@@ -38,6 +38,7 @@ module.exports = {
       }),
       fontFamily: {
         sans: ['Futura', ...defaultTheme.fontFamily.sans],
+        display: ['Tachyon', ...defaultTheme.fontFamily.sans],
       },
       keyframes: {
         'fade-in': {
