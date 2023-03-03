@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export function Lanseringen() {
   return (
-    <div className="bg-t py-36 sm:py-24">
+    <div className="bg-t relative z-10 py-36 sm:py-24">
       <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="relative isolate flex flex-col gap-10 overflow-hidden bg-gray-900 px-6 py-24 opacity-80 shadow-2xl sm:rounded-3xl sm:px-24 xl:flex-row xl:items-center xl:py-32">
           <h2 className="max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl xl:max-w-none xl:flex-auto">
