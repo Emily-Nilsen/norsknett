@@ -6,12 +6,17 @@ export default function Privacy() {
   return (
     <div className="relative h-full w-full px-6 py-32 lg:px-8">
       <div className="-mt-20 flex w-full justify-center pt-10 pb-20">
-        <Image
-          src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1677830029/Norsk%20Nett/norsk_nett_logo_v2_eqpf0q.svg"
-          alt="Logo for Norsk Nett, et selskap som tilbyr webutvikling og grafisk design"
-          width={89}
-          height={89}
-        />
+        <div className="flex flex-col items-center">
+          <Image
+            src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1677848712/Norsk%20Nett/norsknett_dark_bg_xdnrfb.svg"
+            alt="Logo for Norsk Nett, et selskap som tilbyr webutvikling og grafisk design"
+            width={100}
+            height={159}
+          />
+          <p className="flex items-center bg-gradient-to-b from-[#7fc898] to-cyan-600 bg-clip-text text-center font-display text-2xl text-transparent">
+            norsk nett
+          </p>
+        </div>
       </div>
       <div className="z-1 relative mx-auto max-w-2xl text-base leading-7 text-stone-500">
         <p className="text-base font-semibold leading-7 text-cyan-600">

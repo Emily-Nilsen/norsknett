@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
         <link
           rel="icon"
-          href="https://res.cloudinary.com/dt3k2apqd/image/upload/v1677831075/Norsk%20Nett/norsk_nett_favicon_wkgvvi.svg"
+          href="https://res.cloudinary.com/dt3k2apqd/image/upload/v1677848712/Norsk%20Nett/norsknett_dark_bg_xdnrfb.svg"
         />
         <link rel="stylesheet" href="https://use.typekit.net/hat7gwm.css" />
       </Head>

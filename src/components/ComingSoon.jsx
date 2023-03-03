@@ -22,11 +22,11 @@ export function ComingSoon() {
       <main className="z-1 relative flex w-screen py-6 sm:py-12">
         <Container className="w-full">
           <div className="flex flex-col justify-between ">
-            <div className="">
+            <div>
               <div className="flex w-full justify-center sm:justify-start">
                 <div className="flex">
                   <Image
-                    src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1677831468/Norsk%20Nett/norsk_nett_white_triangle_ccglnv.svg"
+                    src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1677848712/Norsk%20Nett/norsknett_dark_bg_xdnrfb.svg"
                     alt="Logo for Norsk Nett, et selskap som tilbyr webutvikling og grafisk design"
                     width={100}
                     height={159}
